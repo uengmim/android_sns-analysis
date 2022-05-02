@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/tab_Item3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="더보기" />
+
+        <TextView
+            android:id="@+id/editTextTextPersonName32"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="bottom"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="키워드 언급량 추이" />
+
+        <LinearLayout
+            android:id="@+id/Statisticsbuttongroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="1일"
+                android:textSize="11sp"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="15일"
+                android:textSize="11sp"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="30일"
+                android:textSize="11sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:contentDescription="graph"
+            app:srcCompat="@drawable/img_6" />
+
+    </LinearLayout>
+
+</FrameLayout>

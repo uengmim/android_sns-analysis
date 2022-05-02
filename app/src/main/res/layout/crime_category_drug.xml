@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    layout_width="wrap_content"
+    layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBFBFB"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/layerhead"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="20dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="11dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/img" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center|right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="username" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="황영합이당" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/seungminhead" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layerbody1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/layerhead"
+            app:layout_constraintBottom_toTopOf="@+id/layerbody2"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:iconifiedByDefault="false"
+                android:searchIcon="@drawable/ic_launcher_foreground"
+                android:submitBackground="@drawable/ic_launcher_foreground"
+                app:queryHint="검색어를 입력하세요."
+                android:background="@drawable/border"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layerbody2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/layerbody1"
+            tools:layout_editor_absoluteX="20dp">
+
+            <TextView
+                android:id="@+id/crime_category"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="마약"
+                android:background="@color/sky"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1"
+                    >
+                    <TextView
+                        android:id="@+id/word1"
+                        android:gravity="center"
+                        android:text="4949"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/word_mean1"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="검거되었음을 문자로 알릴 때 사용."
+                        android:textSize="16sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+
+                    <TextView
+                        android:id="@+id/word2"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:text="GHB"
+                        android:textSize="20sp" />
+
+                    <TextView
+                    android:id="@+id/word_mean2"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="물이나 음료에 타서 마시는 무색무취의 액체로 \n대부분 성범죄에 악용되는 마약, 필로폰 반제품."
+                    android:textSize="16sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+
+                    <TextView
+                        android:id="@+id/word3"
+                        android:gravity="center"
+                        android:text="공동장"
+                        android:textSize="20sp" />
+
+                    <TextView
+                    android:id="@+id/word_mean3"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="여러 콜센터에서 같이 사용하는 대포 통장."
+                    android:textSize="16sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word4"
+                        android:gravity="center"
+                        android:text="가루"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/word_mean4"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="마약."
+                        android:textSize="16sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word5"
+                        android:gravity="center"
+                        android:text="가루\n쟁이"
+                        android:textSize="20sp"
+                        android:lineSpacingExtra="-10dp"/>
+                    <TextView
+                        android:id="@+id/word_mean5"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="필로폰 밀매 취급자. \n 유의어 - 약장사"
+                        android:textSize="16sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word6"
+                        android:gravity="center"
+                        android:text="가스리"
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/word_mean6"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="이문,마진. \n유의어 - 가스리보다"
+                        android:textSize="16sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word7"
+                        android:gravity="center"
+                        android:text="개아리"
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"
+                        android:lineSpacingExtra="0dp"/>
+                    <TextView
+                        android:id="@+id/word_mean7"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="검거현장에서 완강히 저항하다.\n유의어-개아리틀다"
+                        android:textSize="16sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word8"
+                        android:gravity="center"
+                        android:text="개살구"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/word_mean8"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="가짜 마약."
+                        android:textSize="16sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word9"
+                        android:gravity="center"
+                        android:text="고기"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/word_mean9"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="대마초. \n 유의어 - 떨"
+                        android:textSize="16sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word10"
+                        android:gravity="center"
+                        android:text="곰"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/word_mean10"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="경찰."
+                        android:textSize="16sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word11"
+                        android:gravity="center"
+                        android:text="깍두기"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/word_mean11"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="조직폭력배."
+                        android:textSize="16sp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/word12"
+                        android:gravity="center"
+                        android:text="교수"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/word_mean12"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="마약제조 기술자."
+                        android:textSize="16sp"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
