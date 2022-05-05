@@ -93,35 +93,23 @@
             tools:layout_editor_absoluteY="121dp">
 
             <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tab"
+                android:id="@+id/tab_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
-                app:tabIndicatorColor="#000000">
+                app:tabIndicatorColor="#000000"
+                >
 
-                <com.google.android.material.tabs.TabItem
-                    android:id="@+id/tab_Item1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="tab2" />
 
-                <com.google.android.material.tabs.TabItem
-                    android:id="@+id/tab_Item2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="tab2" />
-
-                <com.google.android.material.tabs.TabItem
-                    android:id="@+id/tab_Item3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="tab3" />
             </com.google.android.material.tabs.TabLayout>
 
             <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/viewpager"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
 
 
         </LinearLayout>
@@ -143,7 +131,9 @@
                 android:iconifiedByDefault="false"
                 android:searchIcon="@drawable/ic_launcher_foreground"
                 android:submitBackground="@drawable/ic_launcher_foreground"
-                android:queryHint="은어의 의미가 궁금하세요?" />
+                app:iconifiedByDefault="false"
+                app:closeIcon="@drawable/seungminhead"
+                app:queryHint="은어의 의미가 궁금하세요?" />
             <TextView
                 android:id="@+id/newscript"
                 android:layout_width="match_parent"
