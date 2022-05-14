@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="right"
-                    android:text="황영합이당" />
+                    android:text="환영합니다" />
             </LinearLayout>
 
             <LinearLayout

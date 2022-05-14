@@ -7,8 +7,9 @@
         <entry key="..\:/mobile/app/src/main/res/drawable/border1.xml" value="0.3135" />
         <entry key="..\:/mobile/app/src/main/res/drawable/btn_red.xml" value="0.367" />
         <entry key="..\:/mobile/app/src/main/res/drawable/btn_sky.xml" value="0.2215" />
-        <entry key="..\:/mobile/app/src/main/res/layout/activity_main.xml" value="0.75" />
-        <entry key="..\:/mobile/app/src/main/res/layout/activity_user_screen.xml" value="0.9" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_contact.xml" value="0.2791666666666667" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_user_screen.xml" value="0.22" />
         <entry key="..\:/mobile/app/src/main/res/layout/crime_category_drug.xml" value="0.36614583333333334" />
         <entry key="..\:/mobile/app/src/main/res/layout/crime_category_gambling.xml" value="0.36614583333333334" />
         <entry key="..\:/mobile/app/src/main/res/layout/crime_category_screen.xml" value="0.36614583333333334" />
