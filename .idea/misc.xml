@@ -6,10 +6,14 @@
         <entry key="..\:/mobile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2655" />
         <entry key="..\:/mobile/app/src/main/res/drawable/border.xml" value="0.3135" />
         <entry key="..\:/mobile/app/src/main/res/drawable/border1.xml" value="0.3135" />
+        <entry key="..\:/mobile/app/src/main/res/drawable/btn_green.xml" value="0.2555" />
         <entry key="..\:/mobile/app/src/main/res/drawable/btn_red.xml" value="0.367" />
         <entry key="..\:/mobile/app/src/main/res/drawable/btn_sky.xml" value="0.2215" />
         <entry key="..\:/mobile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2655" />
-        <entry key="..\:/mobile/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_contact.xml" value="0.25" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_login.xml" value="0.1983695652173913" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/mobile/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_search_main.xml" value="0.2604166666666667" />
         <entry key="..\:/mobile/app/src/main/res/layout/activity_user_screen.xml" value="0.25" />
         <entry key="..\:/mobile/app/src/main/res/layout/crime_category_drug.xml" value="0.36614583333333334" />

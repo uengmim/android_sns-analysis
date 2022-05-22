@@ -73,135 +73,104 @@
             </LinearLayout>
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/layerbody1"
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crime_container1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:orientation="vertical"
-            app:layout_constraintTop_toBottomOf="@id/layerhead"
-            app:layout_constraintBottom_toTopOf="@+id/layerbody2"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp">
-
-            <androidx.appcompat.widget.SearchView
-                android:id="@+id/search_bar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:iconifiedByDefault="false"
-                android:searchIcon="@drawable/ic_launcher_foreground"
-                android:submitBackground="@drawable/ic_launcher_foreground"
-                app:queryHint="검색어를 입력하세요."
-                android:background="@drawable/border"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/layerbody2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="40dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            app:layout_constraintTop_toBottomOf="@id/layerbody1"
-            tools:layout_editor_absoluteX="20dp">
-
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            app:layout_constraintTop_toBottomOf="@id/layerhead">
             <LinearLayout
-                android:id="@+id/layerbody2_header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:id="@+id/textView4"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/layerbody1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:textSize="24dp"
-                    android:text="통계" />
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/layerbody2_content"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="20dp"
                     android:layout_marginLeft="20dp"
-                    android:paddingLeft="10dp"
-                    android:gravity="start"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:text=" - 키워드에 대한 정의 1" />
-                <TextView
-                    android:id="@+id/textView6"
+                    app:layout_constraintTop_toBottomOf="@id/layerhead"
+                    tools:layout_editor_absoluteX="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/layerbody2_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="24dp"
+                            android:text="통계" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/layerbody2_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:paddingLeft="10dp"
+                            android:gravity="start"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:text=" - 키워드에 대한 정의 1" />
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:paddingLeft="10dp"
+                            android:gravity="start"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:text=" - 키워드에 대한 정의 2" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layerbody3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:orientation="vertical"
                     android:layout_marginLeft="20dp"
-                    android:paddingLeft="10dp"
-                    android:gravity="start"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:text=" - 키워드에 대한 정의 2" />
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    >
+                    <TextView
+                        android:id="@+id/editTextTextPersonName32"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="bottom"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:text="키워드 언급량 추이" />
+
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="graph"
+                        app:srcCompat="@drawable/img_6" />
+                </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/layerbody3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintTop_toBottomOf="@id/layerbody2"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            >
-            <TextView
-                android:id="@+id/editTextTextPersonName32"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:gravity="bottom"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:text="키워드 언급량 추이" />
-
-            <LinearLayout
-                android:id="@+id/Statisticsbuttongroup"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="end"
-                android:visibility="visible">
-                <Button
-                    android:layout_width="50dp"
-                    android:layout_height="30dp"
-                    android:text="1일"
-                    android:textSize="11sp"/>
-                <Button
-                    android:layout_width="50dp"
-                    android:layout_height="30dp"
-                    android:text="15일"
-                    android:textSize="11sp"/>
-                <Button
-                    android:layout_width="50dp"
-                    android:layout_height="30dp"
-                    android:text="30일"
-                    android:textSize="11sp"/>
-
-            </LinearLayout>
-
-            <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:contentDescription="graph"
-                app:srcCompat="@drawable/img_6" />
-        </LinearLayout>
-
+        </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
