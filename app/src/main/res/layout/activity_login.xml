@@ -45,7 +45,7 @@
                 android:layout_height="20dp"
                 android:layout_weight="1"
                 android:gravity="bottom"
-                android:text="username" />
+                android:text="로그인이" />
 
             <TextView
                 android:id="@+id/textView"
@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="right"
-                android:text="황영합이당" />
+                android:text="필요합니다" />
         </LinearLayout>
 
         <LinearLayout

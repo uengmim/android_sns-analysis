@@ -14,55 +14,22 @@
         android:orientation="vertical"
         android:visibility="visible">
 
-        <TextView
-            android:id="@+id/textView35"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="end"
-            android:text="더보기" />
-
-        <TextView
-            android:id="@+id/editTextTextPersonName32"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:gravity="bottom"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:text="키워드 언급량 추이" />
-
-        <LinearLayout
-            android:id="@+id/Statisticsbuttongroup"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:visibility="visible">
-            <Button
-                android:layout_width="50dp"
-                android:layout_height="30dp"
-                android:text="1일"
-                android:textSize="11sp"/>
-            <Button
-                android:layout_width="50dp"
-                android:layout_height="30dp"
-                android:text="15일"
-                android:textSize="11sp"/>
-            <Button
-                android:layout_width="50dp"
-                android:layout_height="30dp"
-                android:text="30일"
-                android:textSize="11sp"/>
-
-        </LinearLayout>
-
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="200dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:contentDescription="graph"
             app:srcCompat="@drawable/img_6" />
 
+        <Button
+            android:id="@+id/link_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:text="더 많은 정보 확인"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
 
     </LinearLayout>
