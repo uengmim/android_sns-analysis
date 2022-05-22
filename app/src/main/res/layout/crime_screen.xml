@@ -10,68 +10,59 @@
     <LinearLayout
         android:id="@+id/layerhead"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_height="60dp"
+        android:background="@color/green"
         android:orientation="horizontal"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="20dp">
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="4"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="11dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:src="@drawable/img" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="3dp"
-            android:layout_height="match_parent"
-            android:layout_weight="4"
-            android:gravity="center|right"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="20dp"
-                android:layout_weight="1"
-                android:gravity="bottom"
-                android:text="username" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
-                android:text="황영합이당" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="2dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/imageView1"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="100dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/img" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/search_img"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_weight="0"
-                app:srcCompat="@drawable/seungminhead" />
+                app:srcCompat="@drawable/search" />
         </LinearLayout>
-
-
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout

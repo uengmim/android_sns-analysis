@@ -7,8 +7,6 @@
     android:background="#FBFBFB"
     tools:context=".MainActivity">
 
-
-
     <LinearLayout
         android:id="@+id/layerhead"
         android:layout_width="match_parent"
@@ -330,24 +328,6 @@
             </TableLayout>
 
         </LinearLayout>
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/layertail"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="20dp"
-        android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/layerbody2">
-
-        <ImageView
-            android:id="@+id/tailImage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/img_5" />
 
 
     </LinearLayout>

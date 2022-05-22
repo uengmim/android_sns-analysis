@@ -80,6 +80,7 @@
             android:layout_marginTop="30dp"
             android:orientation="vertical"
             app:layout_constraintTop_toBottomOf="@id/layerhead"
+            app:layout_constraintBottom_toTopOf="@+id/layerbody2"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp">
 
@@ -95,189 +96,168 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layerbody2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_marginTop="40dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/sky"
             app:layout_constraintTop_toBottomOf="@id/layerbody1"
             tools:layout_editor_absoluteX="20dp">
 
+
             <TextView
-                android:id="@+id/crime_category"
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:text="성범죄"
-                android:textSize="30sp"
                 android:textStyle="bold"
-                />
+                android:textSize="24dp"
+                android:text="통계" />
 
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:stretchColumns="*">
+                android:layout_marginTop="30dp">
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1"
-                    >
+                    android:layout_height="wrap_content">
                     <TextView
-                        android:id="@+id/word1"
                         android:gravity="center"
-                        android:text="골뱅이"
-                        android:textSize="20sp"/>
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:text="" />
                     <TextView
-                        android:id="@+id/word_mean1"
-                        android:layout_height="50dp"
                         android:gravity="center"
-                        android:text="심신미약 여성 강간."
-                        android:textSize="16sp"/>
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="최근 100일" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="최근 200일" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1">
-
+                    android:layout_height="match_parent">
                     <TextView
-                        android:id="@+id/word2"
                         android:gravity="center"
-                        android:layout_height="match_parent"
-                        android:text="고등어"
-                        android:textSize="20sp" />
-
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="1" />
                     <TextView
-                    android:id="@+id/word_mean2"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="미성년자."
-                    android:textSize="16sp"/>
+                        android:gravity="center"
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="..." />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="..." />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1">
-
+                    android:layout_height="match_parent">
                     <TextView
-                        android:id="@+id/word3"
                         android:gravity="center"
-                        android:text="조건"
-                        android:textSize="20sp" />
-
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="2" />
                     <TextView
-                    android:id="@+id/word_mean3"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="성매매, 성착취."
-                    android:textSize="16sp"/>
+                        android:gravity="center"
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="2" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="3" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1">
+                    android:layout_height="match_parent">
                     <TextView
-                        android:id="@+id/word4"
                         android:gravity="center"
-                        android:text="최음제"
-                        android:textSize="20sp"/>
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="3" />
                     <TextView
-                        android:id="@+id/word_mean4"
-                        android:layout_height="50dp"
                         android:gravity="center"
-                        android:text="마약, 강간 약물."
-                        android:textSize="16sp"/>
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="2" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="3" />
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1">
+                    android:layout_height="match_parent">
                     <TextView
-                        android:id="@+id/word5"
                         android:gravity="center"
-                        android:text="간단"
-                        android:textSize="20sp"/>
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="4" />
                     <TextView
-                        android:id="@+id/word_mean5"
-                        android:layout_height="50dp"
                         android:gravity="center"
-                        android:text="유사 성행위."
-                        android:textSize="16sp"/>
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="2" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="3" />
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1">
+                    android:layout_height="match_parent">
                     <TextView
-                        android:layout_height="match_parent"
-                        android:id="@+id/word6"
                         android:gravity="center"
-                        android:text="완장"
-                        android:textSize="20sp"/>
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="5" />
                     <TextView
-                        android:id="@+id/word_mean6"
-                        android:layout_height="50dp"
                         android:gravity="center"
-                        android:text="성 착취물 공유방 운영진."
-                        android:textSize="16sp"/>
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="2" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="9.5"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:text="3" />
                 </TableRow>
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1">
-                    <TextView
-                        android:id="@+id/word7"
-                        android:gravity="center"
-                        android:text="수양딸"
-                        android:textSize="20sp"/>
-                    <TextView
-                        android:id="@+id/word_mean7"
-                        android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="성적 파트너."
-                        android:textSize="16sp"/>
-                </TableRow>
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1">
-                    <TextView
-                        android:id="@+id/word8"
-                        android:gravity="center"
-                        android:text="업스"
-                        android:textSize="20sp"/>
-                    <TextView
-                        android:id="@+id/word_mean8"
-                        android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="치마 밑에서 사진을 찍는 행위."
-                        android:textSize="16sp"/>
-                </TableRow>
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/border1">
-                    <TextView
-                        android:id="@+id/word9"
-                        android:gravity="center"
-                        android:text="우동"
-                        android:textSize="20sp"/>
-                    <TextView
-                        android:id="@+id/word_mean9"
-                        android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="VR로 제작된 성인 컨텐츠."
-                        android:textSize="16sp"/>
-                </TableRow>
-
             </TableLayout>
-
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
