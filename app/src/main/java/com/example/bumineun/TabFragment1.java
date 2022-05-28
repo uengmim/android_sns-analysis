@@ -18,14 +18,6 @@ public class TabFragment1 extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_tab1, container, false);
 
-        Button link = (Button) v.findViewById(R.id.link_button);
-        link.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Crime_screen.class);
-                startActivity(intent);
-            }
-        });
         return v;
     }
 }

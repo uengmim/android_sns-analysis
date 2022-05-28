@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
+        <!-- HEADER -->
         <LinearLayout
             android:id="@+id/layerhead"
             android:layout_width="match_parent"
@@ -62,9 +63,9 @@
                     android:layout_weight="0"
                     app:srcCompat="@drawable/search" />
             </LinearLayout>
-
-
         </LinearLayout>
+
+        <!-- BODY -->
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
@@ -207,6 +208,14 @@
                                 app:srcCompat="@drawable/img_4" />
                         </TableRow>
                     </TableLayout>
+                    <Button
+                        android:id="@+id/link_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FFFFFF"
+                        android:text="범죄 관련 은어 확인"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
                 </LinearLayout>
                 <LinearLayout
                     android:id="@+id/layertail"

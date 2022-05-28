@@ -32,7 +32,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView1"
+                    android:id="@+id/back_img"
                     android:layout_width="90dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -170,13 +170,13 @@
                         android:layout_weight="9.5"
                         android:padding="5dp"
                         android:textSize="16dp"
-                        android:text="2" />
+                        android:text="..." />
                     <TextView
                         android:gravity="center"
                         android:layout_weight="9.5"
                         android:padding="5dp"
                         android:textSize="16dp"
-                        android:text="3" />
+                        android:text="..." />
                 </TableRow>
 
                 <TableRow
@@ -193,13 +193,13 @@
                         android:layout_weight="9.5"
                         android:padding="5dp"
                         android:textSize="16dp"
-                        android:text="2" />
+                        android:text="..." />
                     <TextView
                         android:gravity="center"
                         android:layout_weight="9.5"
                         android:padding="5dp"
                         android:textSize="16dp"
-                        android:text="3" />
+                        android:text="..." />
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -215,13 +215,13 @@
                         android:layout_weight="9.5"
                         android:padding="5dp"
                         android:textSize="16dp"
-                        android:text="2" />
+                        android:text="..." />
                     <TextView
                         android:gravity="center"
                         android:layout_weight="9.5"
                         android:padding="5dp"
                         android:textSize="16dp"
-                        android:text="3" />
+                        android:text="..." />
                 </TableRow>
                 <TableRow
                     android:layout_width="match_parent"
@@ -237,13 +237,13 @@
                         android:layout_weight="9.5"
                         android:padding="5dp"
                         android:textSize="16dp"
-                        android:text="2" />
+                        android:text="..." />
                     <TextView
                         android:gravity="center"
                         android:layout_weight="9.5"
                         android:padding="5dp"
                         android:textSize="16dp"
-                        android:text="3" />
+                        android:text="..." />
                 </TableRow>
             </TableLayout>
         </LinearLayout>

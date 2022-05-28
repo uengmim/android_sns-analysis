@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Tab CODE
         TabLayout tabLayout = findViewById(R.id.tab_layout);
         viewPager = findViewById(R.id.pager);
         pagerAdapter = new AdapterDemo(getSupportFragmentManager(), getLifecycle());
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         new TabLayoutMediator(tabLayout, viewPager, (tab, position) -> {
             if (position == 0) {
-                tab.setText("시간별");
+                tab.setText("실시간");
             } else if (position == 1) {
                 tab.setText("단어별");
             } else {
@@ -41,11 +43,22 @@ public class MainActivity extends AppCompatActivity {
             }
         }).attach();
 
+        // Search Button
         ImageView search = (ImageView) findViewById(R.id.search_img);
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Search_main.class);
+                Intent intent = new Intent(MainActivity.this, Search_empty.class);
+                startActivity(intent);
+            }
+        });
+
+        // Link Button
+        Button link = (Button) findViewById(R.id.link_button);
+        link.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Crime_screen.class);
                 startActivity(intent);
             }
         });

@@ -24,7 +24,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/back_img"
                 android:layout_width="90dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <Button
-                    android:id="@+id/btn1"
+                    android:id="@+id/btn_gambling"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:text="도박"
@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <Button
-                    android:id="@+id/btn2"
+                    android:id="@+id/btn_voicefishing"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:text="보이스 피싱"
@@ -145,7 +145,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <Button
-                    android:id="@+id/btn3"
+                    android:id="@+id/btn_drug"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:text="마약"
@@ -173,7 +173,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <Button
-                    android:id="@+id/btn4"
+                    android:id="@+id/btn_sexcrime"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:background="@color/white"
