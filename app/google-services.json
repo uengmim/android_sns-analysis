@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817303249120",
+    "project_id": "bumineun",
+    "storage_bucket": "bumineun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817303249120:android:16551bfe79a9efecb83085",
+        "android_client_info": {
+          "package_name": "com.example.bumineun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817303249120-do5sgfeembm7mik2ldsborv052nhlp2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFny7VfJPyGxgGSoIHggq-yPXGPmZeAAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817303249120-do5sgfeembm7mik2ldsborv052nhlp2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
