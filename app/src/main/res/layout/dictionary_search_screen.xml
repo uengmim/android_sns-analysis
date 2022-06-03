@@ -42,7 +42,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/logo_img"
                 android:layout_width="100dp"
                 android:layout_height="55dp"
                 android:layout_gravity="center"
@@ -70,9 +70,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         app:cardCornerRadius="5dp"
-        app:cardElevation="10dp"
+        app:cardElevation="20dp"
         app:layout_constraintTop_toBottomOf="@id/layerhead">
         <LinearLayout
             android:layout_width="match_parent"
@@ -108,11 +109,12 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
 
                             <TextView
                                 android:id="@+id/mean1"
-                                android:gravity="center"
+                                android:gravity="start"
                                 android:text="어쩌라고 가서 티비나 봐"
                                 android:textSize="18sp" />
 
@@ -126,11 +128,12 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
 
                             <TextView
                                 android:id="@+id/num2"
-                                android:gravity="center"
+                                android:gravity="start"
                                 android:text="어쩌라고"
                                 android:textSize="18sp" />
 
@@ -144,11 +147,12 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
 
                             <TextView
                                 android:id="@+id/num3"
-                                android:gravity="center"
+                                android:gravity="start"
                                 android:text="대답하기 싫다는 뜻"
                                 android:textSize="18sp" />
 
@@ -162,11 +166,12 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
 
                             <TextView
                                 android:id="@+id/num4"
-                                android:gravity="center"
+                                android:gravity="start"
                                 android:text="귀찮아"
                                 android:textSize="18sp" />
 
@@ -180,11 +185,12 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
 
                             <TextView
                                 android:id="@+id/num5"
-                                android:gravity="center"
+                                android:gravity="start"
                                 android:text="저쩔티비"
                                 android:textSize="18sp" />
 
@@ -212,10 +218,10 @@
 
                 <EditText
                     android:id="@+id/upload"
-                    android:layout_width="300dp"
+                    android:layout_width="260dp"
                     android:layout_height="wrap_content"
                     android:hint="단어의 뜻을 입력하세요."
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
                 <Button
                     android:layout_width="match_parent"

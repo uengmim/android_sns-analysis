@@ -11,13 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:visibility="visible"
-        tools:visibility="visible">
+        android:visibility="visible">
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -174,16 +174,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:padding="15dp"
             >
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
                 android:gravity="end"
-                android:text="2022-05-30 12:00 기준"
+                android:text="2022-06-03 12:00 기준"
                 android:textStyle="bold"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
         </LinearLayout>

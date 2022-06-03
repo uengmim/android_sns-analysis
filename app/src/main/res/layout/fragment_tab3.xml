@@ -27,9 +27,11 @@
             android:id="@+id/link_button"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:backgroundTint="#FFFFFF"
-            android:text="더 많은 정보 확인"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            android:text="@string/tab_btn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 
     </LinearLayout>
