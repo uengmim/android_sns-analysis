@@ -33,5 +33,15 @@ public class Crime_category_sexcrime extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Main Button
+        ImageView main = (ImageView) findViewById(R.id.logo_img);
+        main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Crime_category_sexcrime.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -33,5 +33,15 @@ public class Past_search_screen extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Main Button
+        ImageView main = (ImageView) findViewById(R.id.logo_img);
+        main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Past_search_screen.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

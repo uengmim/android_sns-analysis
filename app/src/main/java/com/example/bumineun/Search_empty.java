@@ -24,6 +24,16 @@ public class Search_empty extends AppCompatActivity {
             }
         });
 
+        // Main Button
+        ImageView main = (ImageView) findViewById(R.id.logo_img);
+        main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Search_empty.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // Search
         SearchView sv = (SearchView) findViewById(R.id.search_view);
         sv.setOnClickListener(new View.OnClickListener() {

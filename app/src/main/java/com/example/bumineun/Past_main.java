@@ -34,5 +34,15 @@ public class Past_main extends AppCompatActivity {
             }
         });
 
+        // Main Button
+        ImageView main = (ImageView) findViewById(R.id.logo_img);
+        main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Past_main.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

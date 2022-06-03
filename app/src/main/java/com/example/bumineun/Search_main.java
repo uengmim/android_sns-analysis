@@ -25,6 +25,16 @@ public class Search_main extends AppCompatActivity {
             }
         });
 
+        // Main Button
+        ImageView main = (ImageView) findViewById(R.id.logo_img);
+        main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Search_main.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // Crime
         CardView crime = (CardView) findViewById(R.id.crime_container);
         crime.setOnClickListener(new View.OnClickListener() {

@@ -35,6 +35,16 @@ public class Crime_screen extends AppCompatActivity {
             }
         });
 
+        // Main Button
+        ImageView main = (ImageView) findViewById(R.id.logo_img);
+        main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Crime_screen.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // Category Button
         Button gamb = (Button)findViewById(R.id.btn_gambling);
         Button voice = (Button)findViewById(R.id.btn_voicefishing);
