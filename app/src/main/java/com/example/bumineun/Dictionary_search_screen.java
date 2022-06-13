@@ -13,7 +13,6 @@ public class Dictionary_search_screen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dictionary_search_screen);
-
         // Search Button
         ImageView search = (ImageView) findViewById(R.id.search_img);
         search.setOnClickListener(new View.OnClickListener() {
