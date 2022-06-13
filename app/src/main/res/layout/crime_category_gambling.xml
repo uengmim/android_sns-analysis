@@ -128,13 +128,15 @@
                         android:id="@+id/word1"
                         android:gravity="center"
                         android:layout_height="match_parent"
-
                         android:text="꼬장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean1"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="노름방을 개설하는 한 마디로 개장주. \n하우스장이라고도 함."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -148,16 +150,18 @@
                         android:id="@+id/word2"
                         android:gravity="center"
                         android:layout_height="match_parent"
-
                         android:text="분주꾼"
-                        android:textSize="20sp" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                    android:id="@+id/word_mean2"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="노름방에서 돈 놀이를 하는 사람.\n분통이라고도 함."
-                    android:textSize="16sp"/>
+                        android:id="@+id/word_mean2"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="노름방에서 돈 놀이를 하는 사람.\n분통이라고도 함."
+                        android:textSize="16sp"/>
                 </TableRow>
 
                 <TableRow
@@ -170,15 +174,17 @@
                         android:gravity="center"
                         android:text="대모"
                         android:layout_height="match_parent"
-
-                        android:textSize="20sp" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                    android:id="@+id/word_mean3"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="'꾼'을 불러들이고 '데라'도 뜯으며 \n판을 벌이는 사람."
-                    android:textSize="16sp"/>
+                        android:id="@+id/word_mean3"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="'꾼'을 불러들이고 '데라'도 뜯으며 \n판을 벌이는 사람."
+                        android:textSize="16sp"/>
                 </TableRow>
 
                 <TableRow
@@ -189,11 +195,14 @@
                         android:id="@+id/word4"
                         android:gravity="center"
                         android:text="데라"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean4"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="도박 개장비."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -205,13 +214,15 @@
                         android:id="@+id/word5"
                         android:gravity="center"
                         android:layout_height="match_parent"
-
                         android:text="콧구멍"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean5"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="확실하게 좋은 패가 아니면 게임에 \n아예 참여하지 않는 사람을 의미."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -223,14 +234,16 @@
                         android:id="@+id/word6"
                         android:gravity="center"
                         android:layout_height="match_parent"
-
                         android:text="샤킹"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
                     <TextView
                         android:id="@+id/word_mean6"
                         android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="공갈배팅을 유도하기 위한 제스쳐 \n좋은 패를 들고 안 좋은 패인 척 하는 행위."
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="공갈배팅을 유도하기 위한 제스쳐 \n좋은 패로 안 좋은 패인 척 하는 행위."
                         android:textSize="16sp"/>
                 </TableRow>
                 <TableRow
@@ -242,12 +255,14 @@
                         android:gravity="center"
                         android:text="설계사"
                         android:layout_height="match_parent"
-
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean7"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="구라를 꾸미는 사람.\nex) '타짜'의 정마담"
                         android:textSize="16sp"/>
                 </TableRow>
@@ -259,14 +274,16 @@
                         android:id="@+id/word8"
                         android:gravity="center"
                         android:layout_height="match_parent"
-
                         android:text="컴일"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean8"
                         android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="천장에 카메라를 달아놓고 기계를 통해\n귓속의 도청장치에 카드내용을 불러주는 행위."
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="천장에 카메라를 달아놓고 기계를 통해\n카드내용을 불러주는 행위."
                         android:textSize="16sp"/>
                 </TableRow>
                 <TableRow
@@ -277,11 +294,14 @@
                         android:id="@+id/word9"
                         android:gravity="center"
                         android:text="된장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean9"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="도박 초보자를 의미."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -294,11 +314,14 @@
                         android:gravity="center"
                         android:layout_height="match_parent"
                         android:text="호구"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean10"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="돈 많고 어리석은 사람. '짐짝'이라고도 하는데 \n점찍어 물먹일 사람을 뜻합니다."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -311,13 +334,15 @@
                         android:gravity="center"
                         android:text="구선생"
                         android:layout_height="match_parent"
-
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean11"
                         android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="'호구'의 다른 말로 호구의 면전에서 비아냥거리며 \n그를 호칭할때 쓰는 말입니다."
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="'호구'의 다른 말로 호구의 면전에서 \n비아냥거리며 그를 호칭할때 쓰는 말."
                         android:textSize="16sp"/>
                 </TableRow>
                 <TableRow
@@ -328,12 +353,14 @@
                         android:gravity="center"
                         android:text="꽁짓돈"
                         android:layout_height="match_parent"
-
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean12"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="도박판에서 빌려주는 고리대금."
                         android:textSize="16sp"/>
                 </TableRow>

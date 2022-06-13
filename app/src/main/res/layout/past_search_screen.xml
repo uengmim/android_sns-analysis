@@ -116,7 +116,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="20dp"
                                     android:gravity="center"
-                                    android:text="통계"
+                                    android:text="머구리"
                                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                                     android:textSize="28dp"
                                     android:textStyle="bold" />
@@ -143,7 +143,7 @@
                                     android:gravity="start"
                                     android:textStyle="bold"
                                     android:textSize="20dp"
-                                    android:text=" - 키워드에 대한 정의 1" />
+                                    android:text=" - 한마디로 좋은 손님" />
                                 <TextView
                                     android:id="@+id/textView6"
                                     android:layout_width="match_parent"
@@ -153,7 +153,7 @@
                                     android:gravity="start"
                                     android:textStyle="bold"
                                     android:textSize="20dp"
-                                    android:text=" - 키워드에 대한 정의 2" />
+                                    android:text=" - 개구리의 함북 방언" />
                             </LinearLayout>
                         </LinearLayout>
                         <LinearLayout

@@ -124,14 +124,18 @@
                         >
                         <TextView
                             android:id="@+id/word1"
+                            android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="4949"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
 
                         <TextView
                             android:id="@+id/word_mean1"
                             android:layout_height="50dp"
-                            android:gravity="center"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
                             android:text="검거되었음을 문자로 알릴 때 사용."
                             android:textSize="16sp"/>
                     </TableRow>
@@ -146,14 +150,17 @@
                             android:gravity="center"
                             android:layout_height="match_parent"
                             android:text="GHB"
-                            android:textSize="20sp" />
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
                         <TextView
-                        android:id="@+id/word_mean2"
-                        android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="물이나 음료에 타서 마시는 무색무취의 액체로 \n대부분 성범죄에 악용되는 마약, 필로폰 반제품."
-                        android:textSize="16sp"/>
+                            android:id="@+id/word_mean2"
+                            android:layout_height="50dp"
+                            android:paddingLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:text="물이나 음료에 타서 마시는 무색무취의\n액체로 대부분 성범죄에 악용되는 마약"
+                            android:textSize="16sp"/>
                     </TableRow>
 
                     <TableRow
@@ -163,16 +170,20 @@
 
                         <TextView
                             android:id="@+id/word3"
+                            android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="공동장"
-                            android:textSize="20sp" />
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
                         <TextView
-                        android:id="@+id/word_mean3"
-                        android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="여러 콜센터에서 같이 사용하는 대포 통장."
-                        android:textSize="16sp"/>
+                            android:id="@+id/word_mean3"
+                            android:layout_height="50dp"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="여러 콜센터에서 같이 사용하는 \n대포 통장."
+                            android:textSize="16sp"/>
                     </TableRow>
 
                     <TableRow
@@ -183,11 +194,14 @@
                             android:id="@+id/word4"
                             android:gravity="center"
                             android:text="가루"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/word_mean4"
                             android:layout_height="50dp"
-                            android:gravity="center"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
                             android:text="마약."
                             android:textSize="16sp"/>
                     </TableRow>
@@ -198,14 +212,18 @@
                         <TextView
                             android:id="@+id/word5"
                             android:gravity="center"
+                            android:layout_height="match_parent"
                             android:text="가루\n쟁이"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textSize="20sp"
+                            android:textStyle="bold"
                             android:lineSpacingExtra="-10dp"/>
                         <TextView
                             android:id="@+id/word_mean5"
                             android:layout_height="50dp"
-                            android:gravity="center"
-                            android:text="필로폰 밀매 취급자. \n 유의어 - 약장사"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="필로폰 밀매 취급자. 유의어 - 약장사"
                             android:textSize="16sp"/>
                     </TableRow>
                     <TableRow
@@ -217,12 +235,15 @@
                             android:gravity="center"
                             android:text="가스리"
                             android:layout_height="match_parent"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/word_mean6"
                             android:layout_height="50dp"
-                            android:gravity="center"
-                            android:text="이문,마진. \n유의어 - 가스리보다"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="이문,마진. 유의어 - 가스리보다"
                             android:textSize="16sp"/>
                     </TableRow>
                     <TableRow
@@ -234,11 +255,14 @@
                             android:gravity="center"
                             android:layout_height="match_parent"
                             android:text="개아리"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/word_mean7"
                             android:layout_height="50dp"
-                            android:gravity="center"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
                             android:text="검거현장에서 완강히 저항하다.\n유의어-개아리틀다"
                             android:textSize="16sp"/>
                     </TableRow>
@@ -250,11 +274,14 @@
                             android:id="@+id/word8"
                             android:gravity="center"
                             android:text="개살구"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/word_mean8"
                             android:layout_height="50dp"
-                            android:gravity="center"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
                             android:text="가짜 마약."
                             android:textSize="16sp"/>
                     </TableRow>
@@ -267,12 +294,15 @@
                             android:gravity="center"
                             android:layout_height="match_parent"
                             android:text="고기"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/word_mean9"
                             android:layout_height="50dp"
-                            android:gravity="center"
-                            android:text="대마초. \n 유의어 - 떨"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="대마초. 유의어 - 떨"
                             android:textSize="16sp"/>
                     </TableRow>
                     <TableRow
@@ -283,11 +313,14 @@
                             android:id="@+id/word10"
                             android:gravity="center"
                             android:text="곰"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/word_mean10"
                             android:layout_height="50dp"
-                            android:gravity="center"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
                             android:text="경찰."
                             android:textSize="16sp"/>
                     </TableRow>
@@ -299,11 +332,14 @@
                             android:id="@+id/word11"
                             android:gravity="center"
                             android:text="깍두기"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/word_mean11"
                             android:layout_height="50dp"
-                            android:gravity="center"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
                             android:text="조직폭력배."
                             android:textSize="16sp"/>
                     </TableRow>
@@ -314,11 +350,14 @@
                             android:id="@+id/word12"
                             android:gravity="center"
                             android:text="교수"
-                            android:textSize="20sp"/>
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
                         <TextView
                             android:id="@+id/word_mean12"
                             android:layout_height="50dp"
-                            android:gravity="center"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
                             android:text="마약제조 기술자."
                             android:textSize="16sp"/>
                     </TableRow>

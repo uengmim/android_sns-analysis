@@ -125,11 +125,14 @@
                         android:id="@+id/word1"
                         android:gravity="center"
                         android:text="독장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean1"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="사용이력(이용이력)이 없는 계좌."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -144,14 +147,17 @@
                         android:gravity="center"
                         android:layout_height="match_parent"
                         android:text="공장"
-                        android:textSize="20sp" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                    android:id="@+id/word_mean2"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="피해금액 인출 뒤 신고 되지 않아 \n재사용 준비 중인 계좌."
-                    android:textSize="16sp"/>
+                        android:id="@+id/word_mean2"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="피해금액 인출 뒤 신고 되지 않아 \n재사용 준비 중인 계좌."
+                        android:textSize="16sp"/>
                 </TableRow>
 
                 <TableRow
@@ -161,16 +167,20 @@
 
                     <TextView
                         android:id="@+id/word3"
+                        android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="공동장"
-                        android:textSize="20sp" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                    android:id="@+id/word_mean3"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="여러 콜센터에서 같이 사용하는 대포 통장."
-                    android:textSize="16sp"/>
+                        android:id="@+id/word_mean3"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="여러 콜센터에서 같이 사용하는 \n대포 통장."
+                        android:textSize="16sp"/>
                 </TableRow>
 
                 <TableRow
@@ -181,11 +191,14 @@
                         android:id="@+id/word4"
                         android:gravity="center"
                         android:text="세차장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean4"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="입.출금등 테스트가 완료된 범행 계좌."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -197,11 +210,14 @@
                         android:id="@+id/word5"
                         android:gravity="center"
                         android:text="의뢰장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean5"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="인출 전용 계좌를 의미."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -214,11 +230,14 @@
                         android:id="@+id/word6"
                         android:gravity="center"
                         android:text="출금장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean6"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="입.출금은 가능하나 다른 계좌로 \n 이체할 수 없는 계좌."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -230,11 +249,14 @@
                         android:id="@+id/word7"
                         android:gravity="center"
                         android:text="달러장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean7"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="달러 이체 가능 계좌."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -246,11 +268,14 @@
                         android:id="@+id/word8"
                         android:gravity="center"
                         android:text="앞장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean8"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="피해금을 받는 계좌."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -262,11 +287,14 @@
                         android:id="@+id/word9"
                         android:gravity="center"
                         android:text="임뱅장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean9"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="인터넷뱅킹 가능 계좌."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -278,11 +306,14 @@
                         android:id="@+id/word10"
                         android:gravity="center"
                         android:text="뒷장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean10"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="범행계좌로 장기적으로 사용 가능한 계좌."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -294,11 +325,14 @@
                         android:id="@+id/word11"
                         android:gravity="center"
                         android:text="공상"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean11"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="중국 공상계좌."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -309,11 +343,14 @@
                         android:id="@+id/word12"
                         android:gravity="center"
                         android:text="통카오"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean12"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="통장 체크카드 또는 OTP카드."
                         android:textSize="16sp"/>
                 </TableRow>

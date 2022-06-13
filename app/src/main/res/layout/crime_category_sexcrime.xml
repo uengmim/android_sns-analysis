@@ -125,11 +125,14 @@
                         android:id="@+id/word1"
                         android:gravity="center"
                         android:text="골뱅이"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean1"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="심신미약 여성 강간."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -144,14 +147,17 @@
                         android:gravity="center"
                         android:layout_height="match_parent"
                         android:text="고등어"
-                        android:textSize="20sp" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                    android:id="@+id/word_mean2"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="미성년자."
-                    android:textSize="16sp"/>
+                        android:id="@+id/word_mean2"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="미성년자."
+                        android:textSize="16sp"/>
                 </TableRow>
 
                 <TableRow
@@ -163,14 +169,17 @@
                         android:id="@+id/word3"
                         android:gravity="center"
                         android:text="조건"
-                        android:textSize="20sp" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <TextView
-                    android:id="@+id/word_mean3"
-                    android:layout_height="50dp"
-                    android:gravity="center"
-                    android:text="성매매, 성착취."
-                    android:textSize="16sp"/>
+                        android:id="@+id/word_mean3"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="성매매, 성착취."
+                        android:textSize="16sp"/>
                 </TableRow>
 
                 <TableRow
@@ -181,11 +190,14 @@
                         android:id="@+id/word4"
                         android:gravity="center"
                         android:text="최음제"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean4"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="마약, 강간 약물."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -197,11 +209,14 @@
                         android:id="@+id/word5"
                         android:gravity="center"
                         android:text="간단"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean5"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="유사 성행위."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -213,11 +228,14 @@
                         android:id="@+id/word6"
                         android:gravity="center"
                         android:text="완장"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean6"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="성 착취물 공유방 운영진."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -229,11 +247,14 @@
                         android:id="@+id/word7"
                         android:gravity="center"
                         android:text="수양딸"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean7"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="성적 파트너."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -245,11 +266,14 @@
                         android:id="@+id/word8"
                         android:gravity="center"
                         android:text="업스"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean8"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="치마 밑에서 사진을 찍는 행위."
                         android:textSize="16sp"/>
                 </TableRow>
@@ -260,11 +284,14 @@
                         android:id="@+id/word9"
                         android:gravity="center"
                         android:text="우동"
-                        android:textSize="20sp"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
                     <TextView
                         android:id="@+id/word_mean9"
                         android:layout_height="50dp"
-                        android:gravity="center"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
                         android:text="VR로 제작된 성인 컨텐츠."
                         android:textSize="16sp"/>
                 </TableRow>
