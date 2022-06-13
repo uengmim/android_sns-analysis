@@ -29,8 +29,7 @@ public class Past_search_screen extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Past_search_screen.this, Search_main.class);
-                startActivity(intent);
+                onBackPressed();
             }
         });
 

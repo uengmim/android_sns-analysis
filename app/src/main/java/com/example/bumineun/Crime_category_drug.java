@@ -29,8 +29,7 @@ public class Crime_category_drug extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Crime_category_drug.this, Crime_screen.class);
-                startActivity(intent);
+                onBackPressed();
             }
         });
 

@@ -29,8 +29,7 @@ public class Crime_search_screen extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Crime_search_screen.this, Search_main.class);
-                startActivity(intent);
+                onBackPressed();
             }
         });
 

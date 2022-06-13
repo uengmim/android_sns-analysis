@@ -29,8 +29,7 @@ public class Dictionary_screen extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dictionary_screen.this, MainActivity.class);
-                startActivity(intent);
+                onBackPressed();
             }
         });
 

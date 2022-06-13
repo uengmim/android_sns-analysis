@@ -19,8 +19,7 @@ public class Search_empty extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Search_empty.this, MainActivity.class);
-                startActivity(intent);
+                onBackPressed();
             }
         });
 

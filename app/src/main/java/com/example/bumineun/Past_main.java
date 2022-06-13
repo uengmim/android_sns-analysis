@@ -29,8 +29,7 @@ public class Past_main extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Past_main.this, MainActivity.class);
-                startActivity(intent);
+                onBackPressed();
             }
         });
 
