@@ -181,7 +181,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="end"
-                android:text="2022-06-03 12:00 기준"
+                android:text="2022-06-17 10:00 기준"
                 android:textStyle="bold"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
         </LinearLayout>
