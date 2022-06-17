@@ -153,13 +153,13 @@
 
                         <TableRow
                             android:layout_width="250dp"
-                            android:layout_height="50dp"
+                            android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp">
 
                             <ImageView
                                 android:id="@+id/imageView9"
                                 android:layout_width="250dp"
-                                android:layout_height="60dp"
+                                android:layout_height="80dp"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/newscript"
                                 app:srcCompat="@drawable/img_1" />
@@ -167,13 +167,13 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
+                            android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp">
 
                             <ImageView
                                 android:id="@+id/imageView10"
                                 android:layout_width="wrap_content"
-                                android:layout_height="60dp"
+                                android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/newscript"
@@ -182,13 +182,13 @@
 
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
+                            android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp">
 
                             <ImageView
                                 android:id="@+id/imageView11"
                                 android:layout_width="wrap_content"
-                                android:layout_height="60dp"
+                                android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/newscript"
@@ -196,13 +196,13 @@
                         </TableRow>
                         <TableRow
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
+                            android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp">
 
                             <ImageView
                                 android:id="@+id/imageView12"
                                 android:layout_width="wrap_content"
-                                android:layout_height="60dp"
+                                android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/newscript"
